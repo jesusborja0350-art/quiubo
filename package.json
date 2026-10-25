@@ -1,0 +1,16 @@
+{
+  "name": "quiubo",
+  "version": "1.0.0",
+  "description": "Chat para conocer gente: registro, perfiles, sala general y chats uno a uno con base de datos SQLite.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "MIT",
+  "private": true
+}
